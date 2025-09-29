@@ -1,6 +1,6 @@
 ## steps to push docker image to container registry 
-[!IMPORTANT]
 
+> [!IMPORTANT]
 
 step 1 : create a repository in profile just like github in hub.docker.com  
 step 2 :  
