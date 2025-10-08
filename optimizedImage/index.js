@@ -9,3 +9,8 @@ app.get("/",(req,res)=>{
         "message" : "you are on home page ....",
     })
 })
+app.get("/health",(req,res)=>{
+    return res.json({
+        msg:"everything is good",
+    })
+})
