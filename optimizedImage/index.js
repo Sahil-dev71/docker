@@ -11,6 +11,6 @@ app.get("/",(req,res)=>{
 })
 app.get("/health",(req,res)=>{
     return res.json({
-        msg:"everything is good",
+        "msg":"surver is healthy",
     })
 })
